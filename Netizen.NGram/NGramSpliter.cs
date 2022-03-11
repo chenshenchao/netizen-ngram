@@ -16,19 +16,14 @@ namespace Netizen.NGram
 
         public List<string> Split(string text)
         {
-            List<string> result = new List<string>();
-            if (text.Length < MinSize)
+            int max = Math.Min(MaxSize, text.Length);
+            int min = Math.Min(MinSize, text.Length);
+            int sc = text.Length - min + 1;
+            int ec = text.Length - max + 1;
+            int count = (sc + ec) * (sc - ec + 1) / 2;
+            List<string> result = new List<string>(count);
+            for (int i = min; i <= max; i++)
             {
-                result.Add(text);
-                return result;
-            }
-
-            for (int i = MinSize; i <= MaxSize; i++)
-            {
-                if (text.Length < i)
-                {
-                    break;
-                }
                 int end = text.Length - i;
                 for (int j = 0; j <= end; j++)
                 {

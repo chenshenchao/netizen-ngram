@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31410.357
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netizen.NGram", "Netizen.NGram\Netizen.NGram.csproj", "{0C1BC3D0-277B-438A-A5BB-4632846C1CA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netizen.NGram", "Netizen.NGram\Netizen.NGram.csproj", "{0C1BC3D0-277B-438A-A5BB-4632846C1CA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netizen.NGram.Demo", "Netizen.NGram.Demo\Netizen.NGram.Demo.csproj", "{073E6870-F8B9-4492-800C-D96EB809AA2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netizen.NGram.Demo", "Netizen.NGram.Demo\Netizen.NGram.Demo.csproj", "{073E6870-F8B9-4492-800C-D96EB809AA2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netizen.NGram.Test", "Netizen.NGram.Test\Netizen.NGram.Test.csproj", "{EDAEA176-8DA4-496A-A5AC-C7E3A3928F03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{073E6870-F8B9-4492-800C-D96EB809AA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{073E6870-F8B9-4492-800C-D96EB809AA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{073E6870-F8B9-4492-800C-D96EB809AA2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAEA176-8DA4-496A-A5AC-C7E3A3928F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAEA176-8DA4-496A-A5AC-C7E3A3928F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAEA176-8DA4-496A-A5AC-C7E3A3928F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAEA176-8DA4-496A-A5AC-C7E3A3928F03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
